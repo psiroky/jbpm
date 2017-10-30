@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-parser</artifactId>
   <name>jBPM :: WorkItems :: Parser</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.parser</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>

@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-archive</artifactId>
   <name>jBPM :: WorkItems :: Archive</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.archive</java.module.name>
+  </properties>
+
   <dependencies>
 
     <dependency>

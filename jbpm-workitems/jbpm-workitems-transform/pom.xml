@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-transform</artifactId>
   <name>jBPM :: WorkItems :: Transform</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.transform</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.jbpm</groupId>

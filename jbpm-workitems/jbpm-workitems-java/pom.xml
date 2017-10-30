@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-java</artifactId>
   <name>jBPM :: WorkItems :: Java</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.java</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.jbpm</groupId>

@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-rss</artifactId>
   <name>jBPM :: WorkItems :: RSS</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.rss</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>rome</groupId>

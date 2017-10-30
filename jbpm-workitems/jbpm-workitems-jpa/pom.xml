@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-jpa</artifactId>
   <name>jBPM :: WorkItems :: JPA</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.jpa</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.hibernate.javax.persistence</groupId>

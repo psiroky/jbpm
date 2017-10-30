@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-jabber</artifactId>
   <name>jBPM :: WorkItems :: Jabber</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.jabber</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>jivesoftware</groupId>

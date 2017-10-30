@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-exec</artifactId>
   <name>jBPM :: WorkItems :: Exec</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.exec</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.jbpm</groupId>

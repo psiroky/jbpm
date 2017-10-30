@@ -12,6 +12,10 @@
   <artifactId>jbpm-workitems-ftp</artifactId>
   <name>jBPM :: WorkItems :: FTP</name>
 
+  <properties>
+    <java.module.name>org.jbpm.workitem.ftp</java.module.name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>commons-net</groupId>
